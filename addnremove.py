@@ -156,7 +156,7 @@ def addAdjective(line):
     bigrams = ngrams(brown.words(), 2)
     preWords = [ bg[0] for bg in bigrams if bg[1]==chosenNoun ]
     taggedPreWords = nltk.pos_tag(preWords)
-    chosenPreWords = [ pw[0] for pw in taggedPreWords if (pw[1]=="JJ" or pw[1] == "VBN" or pw[1] == "") ]
+    chosenPreWords = [ pw[0] for pw in taggedPreWords if (pw[1]=="JJ" or pw[1] == "VBN") ]
 
     #You can also experiment with checking for VBN or NN
     if not chosenPreWords:
