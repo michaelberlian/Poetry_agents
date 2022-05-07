@@ -23,3 +23,7 @@ the program was tested using python3 version 3.9.7, with libraries:
 - nltk version 3.6.5
 - tkinter version 8.6
 - numpy version 1.19.5
+
+to try main.py :
+- changing sentences on line 19 and 21
+- the parameter on class initialization is the number of how many agents will be called

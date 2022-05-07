@@ -49,5 +49,5 @@ bb.main()
 
 # close the TK window when it stop running to continue to the next part
 
-bb = Blackboard(12)
-bb.main()
+# bb = Blackboard(12)
+# bb.main()
