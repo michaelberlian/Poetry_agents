@@ -27,3 +27,7 @@ the program was tested using python3 version 3.9.7, with libraries:
 to try main.py :
 - changing sentences on line 19 and 21
 - the parameter on class initialization is the number of how many agents will be called
+
+the repository available on :
+- https://github.com/michaelberlian/Poetry_agents or
+- https://projects.cs.nott.ac.uk/psymb17/Poetry_agents
